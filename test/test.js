@@ -2,8 +2,6 @@
 
 /* eslint-disable arrow-body-style */
 
-import { describe, it } from 'mocha';
-
 const assert = require('assert');
 
 const api = require('../functions/weatherAPI');
