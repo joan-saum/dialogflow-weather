@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+    "flowtype"
+  ],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "valid-jsdoc": ["error", {
+      "requireReturn": true,
+      "requireReturnType": true
+    }]
+  }
+}
